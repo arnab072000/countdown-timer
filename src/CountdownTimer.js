@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 const CountdownTimer = () => {
-  const [initialTime, setInitialTime] = useState(100); // Initial time in seconds (5 minutes)
+  const [initialTime, setInitialTime] = useState(100); 
   const [currentTime, setCurrentTime] = useState(initialTime);
   const [isRunning, setIsRunning] = useState(false);
 
